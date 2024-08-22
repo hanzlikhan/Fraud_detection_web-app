@@ -4,7 +4,7 @@ import anthropic
 import os
 
 # Set up Anthropic API client using Streamlit secrets
-api_key = st.secrets["anthropic"]["api_key"]
+api_key = st.secrets["anthropic_api_key"]
 client = anthropic.Client(api_key=api_key)
 
 # Set the page configuration
